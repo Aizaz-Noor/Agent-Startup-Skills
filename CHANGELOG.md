@@ -41,7 +41,7 @@ All notable changes to this project will be documented in this file.
 ## [1.1.0] - 2026-05-04
 
 ### Added
-- **One-Prompt Installer**: Support for `npx -y github:Aizaz-Noor/Agent-Startup-Skills`.
+- **One-line Installer**: Support for `npx -y github:Aizaz-Noor/Agent-Startup-Skills`.
 - **Universal Install Script**: `bin/install.js` for cross-platform automation.
 - **package.json**: To enable npm/npx execution.
 - **Security Section**: Clear warnings in README about approval gates and code review.
