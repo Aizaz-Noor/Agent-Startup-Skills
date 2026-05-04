@@ -71,9 +71,6 @@ graph TD
     F -->|Approval| G[Security Audit]
     G -->|Approval| H[Deployment Plan]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#00ff00,stroke:#333,stroke-width:4px
-    style G fill:#ff0000,stroke:#333,stroke-width:2px
 ```
 
 ---
@@ -81,17 +78,17 @@ graph TD
 ## Meet Your Digital Team
 
 ### Research & Strategy
-- **`@[market-scout]`**: Identifies competitive landscapes and core risks.
-- **`@[mvp-scoper]`**: Ruthlessly prioritizes features for a lean v1.
+- **`@[market-scout] or /market-scout`**: Identifies competitive landscapes and core risks.
+- **`@[mvp-scoper] or /mvp-scoper`**: Ruthlessly prioritizes features for a lean v1.
 
 ### Engineering & Design
-- **`@[system-architect]`**: Defines tech stack, file structure, and API contracts.
-- **`@[schema-designer]`**: Models complex data relationships and schemas.
-- **`@[fullstack-coder]`**: Implements the complete codebase from architecture specs.
+- **`@[system-architect] or /system-architect`**: Defines tech stack, file structure, and API contracts.
+- **`@[schema-designer] or /schema-designer `**: Models complex data relationships and schemas.
+- **`@[fullstack-coder] or /fullstack-coder`**: Implements the complete codebase from architecture specs.
 
 ### Quality & Hardening
-- **`@[test-engineer]`**: Writes unit/integration tests and QA reports.
-- **`@[security-auditor]`**: Audits for OWASP vulnerabilities and logic flaws.
+- **`@[test-engineer] or /test-engineer`**: Writes unit/integration tests and QA reports.
+- **`@[security-auditor] or /security-auditor`**: Audits for OWASP vulnerabilities and logic flaws.
 
 ### Infrastructure
 - **`@[deploy-planner]`**: Prepares Dockerfiles and launch guides.
@@ -116,8 +113,3 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for the manda
 
 ## License & Credits
 Licensed under the [MIT License](LICENSE). 
-
-Special thanks to the engineering patterns inspired by:
-- **Anthropic Skills**
-- **Vercel Agent Skills**
-- **Antigravity Awesome Skills**
