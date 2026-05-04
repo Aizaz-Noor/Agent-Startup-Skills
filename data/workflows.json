@@ -1,0 +1,67 @@
+{
+  "workflows": [
+    {
+      "id": "saas-mvp-factory",
+      "name": "SaaS MVP Factory",
+      "description": "An 8-phase human-in-the-loop pipeline to build a production-ready SaaS MVP.",
+      "steps": [
+        {
+          "phase": 1,
+          "role": "Market Scout",
+          "skill": "market-scout",
+          "artifact": "market_brief.md",
+          "task": "Market research and problem validation."
+        },
+        {
+          "phase": 2,
+          "role": "MVP Scoper",
+          "skill": "mvp-scoper",
+          "artifact": "mvp_scope.md",
+          "task": "Feature prioritization and scoping."
+        },
+        {
+          "phase": 3,
+          "role": "Architect",
+          "skill": "system-architect",
+          "artifact": "architecture.md",
+          "task": "System design and tech stack selection."
+        },
+        {
+          "phase": 4,
+          "role": "Schema Designer",
+          "skill": "schema-designer",
+          "artifact": "schema.md",
+          "task": "Data modeling and relationship mapping."
+        },
+        {
+          "phase": 5,
+          "role": "Coder",
+          "skill": "fullstack-coder",
+          "artifact": "Codebase",
+          "task": "Full-stack implementation."
+        },
+        {
+          "phase": 6,
+          "role": "Test Engineer",
+          "skill": "test-engineer",
+          "artifact": "testing_plan.md",
+          "task": "QA testing and test suite generation."
+        },
+        {
+          "phase": 7,
+          "role": "Security Auditor",
+          "skill": "security-auditor",
+          "artifact": "security_audit.md",
+          "task": "OWASP security audit and hardening."
+        },
+        {
+          "phase": 8,
+          "role": "Deploy Planner",
+          "skill": "deploy-planner",
+          "artifact": "deploy_guide.md",
+          "task": "Deployment configuration and launch guide."
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@ name: saas-accelerator
 description: >
   Master orchestrator skill that coordinates a full multi-agent startup pipeline.
   Triggers on: build SaaS, launch startup, startup accelerator, build product,
-  create MVP, SaaS builder, million dollar startup, build me a business.
+  create MVP, SaaS builder, million dollar startup, build me a business, or
+  using the Startup Factory.
   Coordinates 8 specialized sub-skills in a gated, human-approved sequence.
 ---
 
