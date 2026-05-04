@@ -1,0 +1,23 @@
+{
+  "name": "agent-startup-skills",
+  "version": "1.1.0",
+  "description": "An 8-phase AI agent pipeline for building SaaS products with mandatory approval gates.",
+  "main": "bin/install.js",
+  "bin": {
+    "install-startup-skills": "bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aizaz-Noor/Agent-Startup-Skills.git"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "startup",
+    "skills",
+    "antigravity",
+    "claude-code"
+  ],
+  "author": "Aizaz Noor",
+  "license": "MIT"
+}

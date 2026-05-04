@@ -1,0 +1,19 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if npx tools are ever used)
+node_modules/
+.npm/
+
+# Output / temp
+*.log
+*.tmp
+dist/
