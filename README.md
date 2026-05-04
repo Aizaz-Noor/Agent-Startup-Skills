@@ -4,7 +4,7 @@
 
 <br />
 
-[![GitHub stars](https://img.shields.io/badge/⭐%20Early%20Access-gold?style=for-the-badge)](https://github.com/Aizaz-Noor/Agent-Startup-Skills/stargazers)
+[![GitHub stars](https://img.shields.io/badge/Early%20Access-gold?style=for-the-badge)](https://github.com/Aizaz-Noor/Agent-Startup-Skills/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Antigravity](https://img.shields.io/badge/Antigravity-AI%20IDE-red?style=for-the-badge)](https://github.com/google/antigravity)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple?style=for-the-badge)](https://github.com/anthropics/claude-code)
@@ -15,11 +15,11 @@
 
 **Agent Startup Skills** is a high-performance framework designed to turn raw SaaS ideas into production-ready codebases. Instead of a single prompt, it uses a modular "Digital Team" that works through a strictly governed 8-phase pipeline.
 
-**Explore the Ecosystem:** [📚 Browse the Full Catalog](CATALOG.md) · [📖 Usage Guide](docs/users/usage.md) · [🤖 Claude Code Guide](docs/users/claude-code-skills.md) · [🔄 Workflows (JSON)](data/workflows.json)
+**Explore the Ecosystem:** [Browse the Full Catalog](CATALOG.md) · [Usage Guide](docs/users/usage.md) · [Claude Code Guide](docs/users/claude-code-skills.md) · [Workflows (JSON)](data/workflows.json)
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Why This Repo](#why-this-repo)
 - [Installation](#installation)
 - [The Engineering Pipeline](#the-engineering-pipeline)
@@ -30,7 +30,7 @@
 
 ---
 
-## 🛠️ Why This Repo
+## Why This Repo
 - **Human-in-the-Loop**: 8 mandatory approval gates ensure you stay in control of your code.
 - **Role-Based Specialization**: Skills are split into distinct personas (Architect, Coder, Auditor) for higher quality output.
 - **Universal Install**: One `npx` command sets up your entire agent workspace in seconds.
@@ -39,7 +39,7 @@
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Automatic Install (Recommended)
 Install the complete framework across any system with our feature-rich CLI installer:
@@ -58,7 +58,7 @@ npx -y github:Aizaz-Noor/Agent-Startup-Skills
 
 ---
 
-## 🏗️ The Engineering Pipeline
+## The Engineering Pipeline
 The system uses a sequential "Waterfall-Agile" hybrid flow with mandatory approval gates.
 
 ```mermaid
@@ -78,27 +78,27 @@ graph TD
 
 ---
 
-## 👥 Meet Your Digital Team
+## Meet Your Digital Team
 
-### 🔍 Research & Strategy
+### Research & Strategy
 - **`@[market-scout]`**: Identifies competitive landscapes and core risks.
 - **`@[mvp-scoper]`**: Ruthlessly prioritizes features for a lean v1.
 
-### 📐 Engineering & Design
+### Engineering & Design
 - **`@[system-architect]`**: Defines tech stack, file structure, and API contracts.
 - **`@[schema-designer]`**: Models complex data relationships and schemas.
 - **`@[fullstack-coder]`**: Implements the complete codebase from architecture specs.
 
-### 🛡️ Quality & Hardening
+### Quality & Hardening
 - **`@[test-engineer]`**: Writes unit/integration tests and QA reports.
 - **`@[security-auditor]`**: Audits for OWASP vulnerabilities and logic flaws.
 
-### 🚀 Infrastructure
+### Infrastructure
 - **`@[deploy-planner]`**: Prepares Dockerfiles and launch guides.
 
 ---
 
-## ❓ Quick FAQ
+## Quick FAQ
 
 **What is the Startup Factory?**  
 It's the master orchestrator (`saas-accelerator`) that coordinates all 8 specialists in order.
@@ -111,10 +111,10 @@ Yes. The `npx` installer and the manual `mkdir -p` paths are fully Windows-compa
 
 ---
 
-## 🤝 Contributing
+## Contributing
 We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for the mandatory YAML template.
 
-## 📄 License & Credits
+## License & Credits
 Licensed under the [MIT License](LICENSE). 
 
 Special thanks to the engineering patterns inspired by:
